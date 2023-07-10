@@ -60,6 +60,19 @@
           </ul>
         </address>
       </div>
+      <div class="mobile-header">
+        <nav class="nav-content">
+          <a class="logo link" href="./index.html"
+            >WEB<span class="accent">Studio</span></a
+          >
+        </nav>
+        <button class="menu-button menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">   
+          <svg class="" width="32" height="22">
+            <use class="burger" href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      
+      </div>
     </header>
 
     <main>
@@ -67,7 +80,7 @@
       <section class="hero hero-image">
         <div class="container">
           <h1 class="hero-title">
-            Effective Solutions <br >
+            Effective Solutions
             for Your Business
           </h1>
           <button class="button button-seting" data-modal-open>
@@ -547,6 +560,8 @@
         </div>
       </div>
     </footer>
+
+
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -651,6 +666,69 @@
         </form>
       </div>
     </div>
+
+    <!-- Modal Window Mobile -->
+
+    <div class=" modal-menu-bur mobile-menu-modal js-menu-container is-open" id="mobile-menu">
+      <button class="  modal-btn  mobile-menu-close-btn js-close-menu" type="button">
+        <svg class="modal-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu-container">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a href="./index.html" class="link">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="./portfolio.html" class="link">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="" class="link">Contacts</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-menu-address-list">
+          <li class="mobile-menu-address-item">
+            <a href="tel:+110001111111" class="address-link address-link-tel">+11 (000) 111-11-11</a>
+          </li>
+          <li class="mobile-menu-address-item-email">
+            <a href="mailto:info@devstudio.com" class="modal-menu-link-mail">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="icon-info-footer">
+          <li class="footer-icon">
+            <a href="" class="social-link-foot" aria-label="Instagram">
+              <svg class="icon-circle" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon">
+            <a href="" class="social-link-foot" aria-label="Twitter">
+              <svg class="icon-circle" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon">
+            <a href="" class="social-link-foot" aria-label="Facebook">
+              <svg class="icon-circle" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon">
+            <a href="" class="social-link-foot" aria-label="Linkedin">
+              <svg class="icon-circle" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
